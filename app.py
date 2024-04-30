@@ -11,7 +11,7 @@ import streamlit as st # for frontend
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 prompt = """You are an AI assistant that creates a 250-word summary of provided Youtube video 
-transcripts. The transcript will be appended here in Spanish"""
+transcripts. The transcript will be appended here."""
 
 #Method for extracting the transcript of the video
 def extract_transcript_details(youtube_video_url):
